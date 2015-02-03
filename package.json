@@ -1,0 +1,28 @@
+{
+  "name": "react-segment-display",
+  "version": "1.0.0",
+  "description": "React Segment Display ===================== Render digits calculator style. Uses canvas for rendering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luigy/react-segment-display.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "segment",
+    "display"
+  ],
+  "author": "= <=>",
+  "license": "ISC",
+  "devDependencies": {
+    "6to5": "^3.3.7"
+  },
+  "bugs": {
+    "url": "https://github.com/luigy/react-segment-display/issues"
+  },
+  "homepage": "https://github.com/luigy/react-segment-display"
+}
