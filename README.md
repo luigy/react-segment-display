@@ -1,7 +1,6 @@
 React Segment Display
 =====================
 Render digits calculator style.
-Uses canvas for rendering.
 
 Instalation
 -----------
@@ -11,16 +10,16 @@ npm install react-segment-display
 
 Usage
 -----
-```js
+```jsx
 var React = require('react');
-var SegmentDisplay = require('react-segment-display);
+var SegmentDisplay = require('react-segment-display');
 
 var Display = React.createClass({
   render: function() {
     return (
       <div>
         <SegmentDisplay
-          value={10}
+          value={this.props.value}
           height={40}
           width={20}
           color={[255, 0, 0]}
@@ -33,6 +32,5 @@ var Display = React.createClass({
   }
 });
 
-React.render(<Display />, document.body);
-// ...
+React.render(<Display value={10}/>, document.body);
 ```

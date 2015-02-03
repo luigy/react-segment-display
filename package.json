@@ -4,6 +4,8 @@
   "description": "React Segment Display ===================== Render digits calculator style. Uses canvas for rendering.",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "6to5 src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
